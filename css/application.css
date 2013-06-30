@@ -18,15 +18,9 @@
 @import url(/css/media/phone.css) all and (max-width: 640px);
 @import url(/css/media/tablet.css) all and (min-width: 641px) and (max-width: 940px);
 
-/* FONTS
+/* FONT STOCK
 ---------------------------------------------------------------------------------------------------- */
 @font-face {
-  font-family: 'lightregular';
-  src: url('/fonts/light-regular-webfont.eot');
-  src: url('/fonts/light-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/light-regular-webfont.woff') format('woff'),
-       url('/fonts/light-regular-webfont.ttf') format('truetype'),
-       url('/fonts/light-regular-webfont.svg#lightregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'SansLight';
+  src: url("/fonts/SansLight.ttf");
 }

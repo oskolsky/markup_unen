@@ -59,8 +59,13 @@
   width: 100%;
   z-index: 1;
 }
-.page.__index {background-image: url('/img/bg/index.jpg');}
-.page.__about   {background-image: url('/img/bg/about.jpg');}
+.page.__index      {background-image: url('/img/bg/index.jpg');}
+.page.__about      {background-image: url('/img/bg/about.jpg');}
+.page.__services   {background-image: url('/img/bg/services.jpg');}
+.page.__private    {background-image: url('/img/bg/private.jpg');}
+.page.__commercial {background-image: url('/img/bg/commercial.jpg');}
+.page.__yacht      {background-image: url('/img/bg/yacht.jpg');}
+.page.__contacts   {background-image: url('/img/bg/contacts.jpg');}
 
 .page:before {
   content: '';

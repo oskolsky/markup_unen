@@ -8,8 +8,7 @@ body {
   background: #0b0c0c;
   color: #b6b6b0;
   font-weight: 400;
-  font-family: "lightregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "SansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   line-height: 1.5;
   min-width: 1000px;
@@ -41,7 +40,7 @@ a:active {color: gray;}
 ---------------------------------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: "lightregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
 }
 
