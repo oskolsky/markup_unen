@@ -78,7 +78,7 @@
 .page.__index:before {
   background: url('/img/bg/mask-index.png') center no-repeat;
 }
-.page.__about:before {
+.page:before {
   background: url('/img/bg/mask-inner.png') center no-repeat;
 }
 
@@ -197,7 +197,7 @@
   background: #313131;
   color: #7d7d79;  
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   height: 30px;
   line-height: 3rem;
   margin: 0 5px 5px 0;

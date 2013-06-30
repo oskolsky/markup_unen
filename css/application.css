@@ -22,5 +22,9 @@
 ---------------------------------------------------------------------------------------------------- */
 @font-face {
   font-family: 'SansLight';
-  src: url("/fonts/SansLight.ttf");
+  src: url("/fonts/light.ttf");
+}
+@font-face {
+  font-family: 'SansThin';
+  src: url("/fonts/thin.ttf");
 }

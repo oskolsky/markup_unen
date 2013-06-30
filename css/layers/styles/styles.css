@@ -9,10 +9,13 @@ body {
   color: #b6b6b0;
   font-weight: 400;
   font-family: "SansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   min-width: 1000px;
   min-height: 640px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  letter-spacing: 1px;
 }
 
 hr {
@@ -39,13 +42,13 @@ a:active {color: gray;}
 /* HEADERS
 ---------------------------------------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  font-family: "SansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-family: "SansThin", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 3.1rem;
+  font-size: 3rem;
   line-height: 1;
 }
 /*h2 {
