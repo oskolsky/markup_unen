@@ -1,0 +1,4 @@
+.hidden-tablet,
+.visible-desktop {display: none !important;}
+.hidden-desktop,
+.visible-tablet  {display: inherit !important;}

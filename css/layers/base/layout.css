@@ -1,0 +1,66 @@
+html {height: 100%;}
+
+button, input, select, textarea, th, td {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* CONTAINER
+---------------------------------------------------------------------------------------------------- */
+.ctn {
+  margin: 0 auto;
+  width: 960px;
+}
+
+/* MODULE
+---------------------------------------------------------------------------------------------------- */
+.mod {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* COLUMNS
+---------------------------------------------------------------------------------------------------- */
+/* Gutter */
+[class*="cols-"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Width */
+.cols-1  {width: 80px;}
+.cols-2  {width: 160px;}
+.cols-3  {width: 240px;}
+.cols-4  {width: 320px;}
+.cols-5  {width: 400px;}
+.cols-6  {width: 480px;}
+.cols-7  {width: 560px;}
+.cols-8  {width: 640px;}
+.cols-9  {width: 720px;}
+.cols-10 {width: 800px;}
+.cols-11 {width: 880px;}
+.cols-12 {width: 960px;}
+
+/* Offset */
+.offset-1  {margin-left: 80px;}
+.offset-2  {margin-left: 160px;}
+.offset-3  {margin-left: 240px;}
+.offset-4  {margin-left: 320px;}
+.offset-5  {margin-left: 400px;}
+.offset-6  {margin-left: 480px;}
+.offset-7  {margin-left: 560px;}
+.offset-8  {margin-left: 640px;}
+.offset-9  {margin-left: 720px;}
+.offset-10 {margin-left: 800px;}
+.offset-11 {margin-left: 880px;}
+.offset-12 {margin-left: 960px;}
+
+/* BOTTOM INDENT
+---------------------------------------------------------------------------------------------------- */
+.m-b_2  {margin-bottom: 2rem !important;}
+.m-b_4  {margin-bottom: 4rem !important;}
+.m-b_6  {margin-bottom: 6rem !important;}
+.m-b_8  {margin-bottom: 8rem !important;}
+.m-b_10 {margin-bottom: 10rem !important;}

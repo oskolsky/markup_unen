@@ -1,0 +1,186 @@
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: #0b0c0c;
+  color: #b6b6b0;
+  font-weight: 400;
+  font-family: "lightregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 1.3rem;
+  line-height: 1.5;
+  min-width: 1000px;
+  min-height: 640px;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic;
+}
+
+menu, ol, ul {list-style: none;}
+
+/* LINKS
+---------------------------------------------------------------------------------------------------- */
+a {
+  display: inline-block;
+  color: mediumblue;
+}
+a:hover  {color: silver;}
+a:active {color: gray;}
+
+/* HEADERS
+---------------------------------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: "lightregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 3.1rem;
+  line-height: 1;
+}
+/*h2 {
+  font-size: 3.5rem;
+  line-height: 1;
+}*/
+/*h3 {
+  font-size: 3rem;
+  line-height: 1.125;
+}*/
+/*h4 {
+  font-size: 2.5rem;
+  line-height: 1.25;
+}*/
+/*h5 {
+  font-size: 2rem;
+  line-height: 1.375;
+}*/
+/*h6 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}*/
+
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a,
+h5 > a,
+h6 > a,
+h1 > .a__inner > span,
+h2 > .a__inner > span,
+h3 > .a__inner > span,
+h4 > .a__inner > span,
+h5 > .a__inner > span,
+h6 > .a__inner > span {text-decoration: none;}
+
+/* FORM ELEMENTS
+---------------------------------------------------------------------------------------------------- */
+button, input, select, textarea {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input::-ms-clear {display: none;}
+
+textarea {resize: none;}
+
+/* PROPERTIES
+---------------------------------------------------------------------------------------------------- */
+/* Font-style */
+.fs-i {font-style: italic;}
+
+/* Font-weight */
+.fw-100 {font-weight: 100;} /* Ultra-Light */
+.fw-200 {font-weight: 200;} /* Light */
+.fw-300 {font-weight: 300;} /* Book */
+.fw-400 {font-weight: 400;} /* Normal */
+.fw-500 {font-weight: 500;} /* Medium */
+.fw-600 {font-weight: 600;} /* Semi-Bold */
+.fw-700 {font-weight: 700;} /* Bold */
+.fw-800 {font-weight: 800;} /* Extra-Bold */
+.fw-900 {font-weight: 900;} /* Ultra-Bold */
+
+/* Text-transform */
+.tt-lc {text-transform: lowercase;}
+.tt-uc {text-transform: uppercase;}
+
+/* Vertical-align */
+.va-bl {vertical-align: baseline;}
+.va-t  {vertical-align: top;}
+.va-m  {vertical-align: middle;}
+.va-b  {vertical-align: bottom;}
+
+/* TEXT
+---------------------------------------------------------------------------------------------------- */
+.tx.__left   {text-align: left;}
+.tx.__center {text-align: center;}
+.tx.__right  {text-align: right;}
+
+.tx.__small {font-size: 1rem;}
+.tx.__large {font-size: 2rem;}
+
+/* LINKS
+---------------------------------------------------------------------------------------------------- */
+.a__inner {text-decoration: none;}
+.a__inner > img,
+.a__inner > span {display: inline-block;} 
+.a__inner > img  {
+  margin-top: -.1em;
+  vertical-align: middle;
+}
+
+/* none/none */
+/*a, a:hover {text-decoration: none;}*/
+
+/* underline/underline */
+/*a, a:hover,
+.a__inner > span {text-decoration: underline;}
+.a__inner:hover {text-decoration: none;}*/
+
+/* underline/none */
+a, .a__inner > span {text-decoration: underline;}
+a:hover, .a__inner:hover > span {text-decoration: none;}
+
+/* none/underline */
+/*a, .a__inner:hover {text-decoration: none;}
+a:hover, .a__inner:hover > span {text-decoration: underline;}*/
+
+/* PSEUDOLINKS
+---------------------------------------------------------------------------------------------------- */
+.a__pseudo {line-height: .95;}
+.a__pseudo,
+.a__pseudo:hover,
+.a__pseudo.a__inner > span {text-decoration: none;}
+
+/* underline/underline */
+.a__pseudo,
+.a__pseudo.a__inner > span {border-bottom: .1em dotted mediumblue;}
+.a__pseudo:hover,
+.a__pseudo.a__inner:hover > span {border-bottom-color: silver;}
+.a__pseudo:active,
+.a__pseudo.a__inner:active > span {border-bottom-color: gray;}
+.a__pseudo.a__inner {border-bottom-color: transparent;}
+
+/* underline/none */
+/*.a__pseudo,
+.a__pseudo.a__inner > span {border-bottom: .1em dotted mediumblue;}
+.a__pseudo.a__inner,
+.a__pseudo:hover,
+.a__pseudo.a__inner:hover > span {border-bottom-color: transparent;}*/

@@ -1,0 +1,53 @@
+/* ALERT
+---------------------------------------------------------------------------------------------------- */
+[class*="debug_alert__"] {
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.debug_alert__gold {
+  background: gold;
+  color: white;
+}
+
+/* BACKGROUND
+---------------------------------------------------------------------------------------------------- */
+.debug_bg__red    {background: red;}
+.debug_bg__green  {background: green;}
+.debug_bg__blue   {background: blue;}
+.debug_bg__black  {background: black;}
+.debug_bg__gray   {background: gray;}
+.debug_bg__silver {background: silver;}
+
+/* BORDER
+---------------------------------------------------------------------------------------------------- */
+[class*="debug_border__"] {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.debug_border__red    {border-color: red;}
+.debug_border__green  {border-color: green;}
+.debug_border__blue   {border-color: blue;}
+.debug_border__black  {border-color: black;}
+.debug_border__gray   {border-color: gray;}
+.debug_border__silver {border-color: silver;}
+
+/* COLOR
+---------------------------------------------------------------------------------------------------- */
+.debug_color__red    {color: red;}
+.debug_color__green  {color: green;}
+.debug_color__blue   {color: blue;}
+.debug_color__black  {color: black;}
+.debug_color__gray   {color: gray;}
+.debug_color__silver {color: silver;}
+
+/* MY
+---------------------------------------------------------------------------------------------------- */
+.red {
+  background: red;
+  height: 25px;
+}

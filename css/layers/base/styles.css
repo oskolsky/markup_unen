@@ -1,0 +1,55 @@
+/* RESPONSIVE
+---------------------------------------------------------------------------------------------------- */
+.hidden-desktop,
+.visible-phone,
+.visible-tablet  {display: none !important;}
+.visible-desktop {display: inherit !important;}
+
+/* PROPERTIES
+---------------------------------------------------------------------------------------------------- */
+/* Display */
+.d-n  {display: none;}
+.d-i  {display: inline;}
+.d-b  {display: block;}
+.d-ib {display: inline-block;}
+
+/* Float */
+.f-l {float: left;}
+.f-r {float: right;}
+
+/* Overflow */
+.o-h  {overflow: hidden;}
+.ox-h {
+  -ms-overflow-x: hidden;
+      overflow-x: hidden;
+}
+.oy-h {
+  -ms-overflow-y: hidden;
+      overflow-y: hidden;
+}
+
+/* Position */
+.p-a {position: absolute;}
+.p-r {position: relative; z-index: 1000;}
+.p-f {position: fixed;}
+.p-s {position: static;}
+
+/* Visibility */
+.v-h {visibility: hidden;}
+.v-v {visibility: visible;}
+
+/* HELPERS
+---------------------------------------------------------------------------------------------------- */
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {clear: both;}
+
+/* Centering block */
+.block-c {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
